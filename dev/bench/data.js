@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722269237590,
+  "lastUpdate": 1722269352621,
   "repoUrl": "https://github.com/sieri-logi/benchmark_testing_ground",
   "entries": {
     "My Project Go Benchmark": [
@@ -77,6 +77,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "time performance",
             "value": 82,
+            "unit": "Seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sieri@logitech.com",
+            "name": "sieri-logi",
+            "username": "sieri-logi"
+          },
+          "committer": {
+            "email": "sieri@logitech.com",
+            "name": "sieri-logi",
+            "username": "sieri-logi"
+          },
+          "distinct": true,
+          "id": "70a354ffd7e593d471311e7057717261031bac7b",
+          "message": "add 3 failure",
+          "timestamp": "2024-07-29T18:08:56+02:00",
+          "tree_id": "eab4db466482b49b4901119a83f79b359049ab33",
+          "url": "https://github.com/sieri-logi/benchmark_testing_ground/commit/70a354ffd7e593d471311e7057717261031bac7b"
+        },
+        "date": 1722269352339,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "total number of failures",
+            "value": 3,
+            "unit": "Failures"
+          },
+          {
+            "name": "total number of tests",
+            "value": 10,
+            "unit": "Tests"
+          },
+          {
+            "name": "time performance",
+            "value": 87,
             "unit": "Seconds"
           }
         ]
