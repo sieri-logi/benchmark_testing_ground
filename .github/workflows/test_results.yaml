@@ -29,7 +29,7 @@ jobs:
       - name: Store benchmark result
         uses: benchmark-action/github-action-benchmark@v1
         with:
-          name: My Project Go Benchmark
+          name: Exemple Metrics
           tool: 'customSmallerIsBetter'
           output-file-path: test_results.json
           # Access token to deploy GitHub Pages branch
