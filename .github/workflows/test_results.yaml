@@ -31,7 +31,7 @@ jobs:
         with:
           name: My Project Go Benchmark
           tool: 'customSmallerIsBetter'
-          output-file-path: output.txt
+          output-file-path: test_results.json
           # Access token to deploy GitHub Pages branch
           github-token: ${{ secrets.GITHUB_TOKEN }}
           # Push and deploy GitHub pages branch automatically
