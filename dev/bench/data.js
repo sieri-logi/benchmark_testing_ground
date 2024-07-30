@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722325579403,
+  "lastUpdate": 1722325891852,
   "repoUrl": "https://github.com/sieri-logi/benchmark_testing_ground",
   "entries": {
     "Exemple Metrics": [
@@ -264,6 +264,41 @@ window.BENCHMARK_DATA = {
           {
             "name": "time performance",
             "value": 50,
+            "unit": "Seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "name": "sieri-logi",
+            "username": "sieri-logi"
+          },
+          "committer": {
+            "name": "sieri-logi",
+            "username": "sieri-logi"
+          },
+          "id": "f1f421a7786ef9fb78ab150bb08091fac3eeeead",
+          "message": "add summary comments",
+          "timestamp": "2024-07-30T07:46:09Z",
+          "url": "https://github.com/sieri-logi/benchmark_testing_ground/pull/3/commits/f1f421a7786ef9fb78ab150bb08091fac3eeeead"
+        },
+        "date": 1722325891089,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "total number of failures",
+            "value": 0,
+            "unit": "Failures"
+          },
+          {
+            "name": "total number of tests",
+            "value": 14,
+            "unit": "Tests"
+          },
+          {
+            "name": "time performance",
+            "value": 64,
             "unit": "Seconds"
           }
         ]
