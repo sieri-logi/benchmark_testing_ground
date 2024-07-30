@@ -30,7 +30,7 @@ def gen_test_results():
         {
             "name": "total number of tests",
             "unit": "Tests",
-            "value": 10,
+            "value": 14,
         },
         {
             "name": "time performance",
