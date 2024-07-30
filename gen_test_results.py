@@ -25,7 +25,7 @@ def gen_test_results():
         {
             "name": "total number of failures",
             "unit": "Failures",
-            "value": 2,
+            "value": 0,
         },
         {
             "name": "total number of tests",
