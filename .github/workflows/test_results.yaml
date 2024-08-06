@@ -12,6 +12,8 @@ permissions:
   deployments: write
   # contents permission to update benchmark contents in gh-pages branch
   contents: write
+  # pull request permission to comment on pull requests
+  pull-requests: write
 
 jobs:
   benchmark:
