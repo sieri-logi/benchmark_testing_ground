@@ -40,3 +40,4 @@ jobs:
           auto-push: false
           # Enable Job Summary for PRs
           summary-always: true
+          comment-always: true
