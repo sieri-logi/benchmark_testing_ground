@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1722325891852,
+  "lastUpdate": 1722949717804,
   "repoUrl": "https://github.com/sieri-logi/benchmark_testing_ground",
   "entries": {
     "Exemple Metrics": [
@@ -299,6 +299,45 @@ window.BENCHMARK_DATA = {
           {
             "name": "time performance",
             "value": 64,
+            "unit": "Seconds"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "108674763+sieri-logi@users.noreply.github.com",
+            "name": "Sylvana Ieri",
+            "username": "sieri-logi"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "cdf1eb7a49996fbbf503bf19b28720ac936cf812",
+          "message": "Update test_results.yaml",
+          "timestamp": "2024-08-06T15:08:25+02:00",
+          "tree_id": "d73373bcc7b5b483477f517c1be2d127467e4715",
+          "url": "https://github.com/sieri-logi/benchmark_testing_ground/commit/cdf1eb7a49996fbbf503bf19b28720ac936cf812"
+        },
+        "date": 1722949717525,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "total number of failures",
+            "value": 2,
+            "unit": "Failures"
+          },
+          {
+            "name": "total number of tests",
+            "value": 14,
+            "unit": "Tests"
+          },
+          {
+            "name": "time performance",
+            "value": 85,
             "unit": "Seconds"
           }
         ]
