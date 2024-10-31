@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   code_size:
-    uses: Logitech/cpg-test_metrics/.github/workflows/code_metrics.yml@main
+    uses: sieri-logi/cpg-test_metrics-fork/.github/workflows/code_metrics.yml@main
     with:
       MAP_FILE: canova_app.map
       PROJECT_NAME: canova
