@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1723472185537,
+  "lastUpdate": 1730365284467,
   "repoUrl": "https://github.com/sieri-logi/benchmark_testing_ground",
   "entries": {
     "Kosmos metrics / tiger board": [
@@ -167,6 +167,78 @@ window.BENCHMARK_DATA = {
           "url": "https://github.com/sieri-logi/benchmark_testing_ground/commit/06ba2f16ca1ef85a5319bd116a17360584d1a3bc"
         },
         "date": 1723472185271,
+        "tool": "customSmallerIsBetter",
+        "benches": [
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_measure_break_latency_in_active_mode : The switch latency time : (average)",
+            "value": 793.7458,
+            "unit": "us",
+            "extra": "minimum=629.08us, maximum=954.0us, 95_percentile=905.43us, 99_percentile=935.5266000000001us"
+          },
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_measure_break_latency_with_hybrid_switch_in_power_save_mode_in_active_mode : The switch latency time : (average)",
+            "value": 290.98760000000004,
+            "unit": "us",
+            "extra": "minimum=132.32us, maximum=433.86us, 95_percentile=401.887us, 99_percentile=428.415us"
+          },
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_measure_make_latency_default_switch_in_active_mode : The switch latency time : (average)",
+            "value": 290.88059999999996,
+            "unit": "us",
+            "extra": "minimum=127.2us, maximum=460.78000000000003us, 95_percentile=413.96599999999995us, 99_percentile=455.79040000000003us"
+          },
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_measure_make_latency_in_lift_mode : The switch latency time : (average)",
+            "value": 250.1316,
+            "unit": "us",
+            "extra": "minimum=132.12us, maximum=425.0us, 95_percentile=257.38us, 99_percentile=408.1304000000001us"
+          },
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_measure_make_latency_with_hybrid_switch_in_power_save_mode_in_active_mode : The switch latency time : (average)",
+            "value": 284.76919999999996,
+            "unit": "us",
+            "extra": "minimum=125.96000000000001us, maximum=443.1us, 95_percentile=414.26399999999995us, 99_percentile=433.81380000000007us"
+          },
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_x_motion_in_run_mode : The motion latency time : (average)",
+            "value": 253.23600000000005,
+            "unit": "us",
+            "extra": "minimum=73.94us, maximum=479.66us, 95_percentile=427.696us, 99_percentile=445.5884us"
+          },
+          {
+            "name": "pytestbox.device.hid.latency.performance.LatencyPerformance4kHzUSBTestCase.test_y_motion_in_run_mode : The motion latency time : (average)",
+            "value": 259.82700000000006,
+            "unit": "us",
+            "extra": "minimum=74.0us, maximum=448.34000000000003us, 95_percentile=438.9169999999999us, 99_percentile=446.91080000000005us"
+          },
+          {
+            "name": "pytestbox.device.hid.mouse.displacement.performance.XYDisplacementReportRatePerformanceUSBTestCase.test_4kHz_report_rate_stability : The report rate : ",
+            "value": 250,
+            "unit": "us",
+            "extra": "minimum=124.9us, maximum=875.2us, Delta on max=250.08000000000004us, Delta on min = 50.04us, standard deviation=4.5us"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "sieri@logitech.com",
+            "name": "sieri-logi",
+            "username": "sieri-logi"
+          },
+          "committer": {
+            "email": "sieri@logitech.com",
+            "name": "sieri-logi",
+            "username": "sieri-logi"
+          },
+          "distinct": true,
+          "id": "ecd8de0dcbd2427d95e0f28ab8e375bfec2dd986",
+          "message": "testing one two",
+          "timestamp": "2024-10-31T10:01:07+01:00",
+          "tree_id": "ddfa08093dc12faa6b1102fe9bc821b7438dc6cd",
+          "url": "https://github.com/sieri-logi/benchmark_testing_ground/commit/ecd8de0dcbd2427d95e0f28ab8e375bfec2dd986"
+        },
+        "date": 1730365284157,
         "tool": "customSmallerIsBetter",
         "benches": [
           {
